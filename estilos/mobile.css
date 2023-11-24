@@ -1,0 +1,7 @@
+@charset "UF-8";
+
+@media screen and (min-width: 700px) {
+    div#box {
+        width: 70%;
+    }
+}

@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+div#box {
+    width: 600px;
+    border-radius: 10px;
+}
+
+div.box-white {
+    border-radius: 10px;
+    height: 165px;
+}
+
+div.box-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.box-pay {
+    width: 55%;
+    margin-right: auto;
+    border-radius: 0px 0px 0px 10px;
+}
+
+div.box-pay > div.sign {
+    height: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+div.box-blue {
+    width: 55%;
+    margin-top: 0.1px;
+    margin-left: auto;
+    border-radius: 0px 0px 10px 0px;
+}
+
+div.box-blue > p {
+    width: 90%;
+    line-height: 24px;
+    font-size: 0.96em;
+    font-weight: 500;
+}
